@@ -31,8 +31,51 @@ pi+4
 radius=11 #you must defined the variable to run the next
 radius+2
 #remember that variables is just a name and the assignmet associate the name with object
+#print(pi)
+#....Condicionals
+"""numero=int(input("Digite un Numero: "))
+if numero>0:
+    print("El numero es positivo")
+elif numero==0:
+    print("El valor es 0")
+else:
+    print("El numero es negativo")
 
+print("fin del progrma")
 
+#...While 
+condition=1
+while condition<10:
+    print(condition)
+    condition +=1
+"""
+"""
+a=("banana", "apple", "microsoft")
+for element in a:
+    print(element)
+#print(a[0:3])
 
+b=[20, 10, 5]
+total=0
+for e in b:
+    total +=e
+    print(total) #each other of values
+print(total) #The end value
+"""
+"""
+c=list(range(1,5))
+print(c)
+
+total2=0
+for i in range(1,5):
+    total2 +=i
+    print(total2)
+print("Final del for: ", total2)
+"""
+total3=0
+for i in range(1, 8):
+    if i % 3 == 0:
+        total3 += i
+print(total3)
 
 
